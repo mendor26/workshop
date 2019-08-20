@@ -1,0 +1,20 @@
+.columnasform{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.columnadni{
+padding-left: 0px;
+ margin-right: 14px;
+}
+
+.botonagregar, .filaeliminar{
+	    margin-top: 20px;
+}
+
+.botonagregar{ width: 100%;
+	}
+
+.titulo{
+	text-align: center;
+}
