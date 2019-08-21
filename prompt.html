@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio</title>
+    <script type="text/javascript">
+    	var genero = prompt('Ingrese su género');
+var edad = prompt('Edad');
+
+if(genero=="male" && edad >16){
+  console.log("Sr. usted es mayor de edad puede ingresar")
+}
+else if (genero=="female" && edad >16){
+  console.log("Srta. usted es mayor de edad puede ingresar")
+}
+else if (genero=="male" && edad <16){
+  console.log("Sr. usted es menor de edad no puede ingresar")
+}
+else if (genero=="female" && edad <16){
+  console.log("Sra. usted es menor de edad no puede ingresar")
+}
+
+else if (genero=="otro" && edad <16){
+  console.log("Usted es menor de edad no puede ingresar")
+}
+else if (genero=="otro" && edad >16){
+  console.log("Usted es mayor de edad no puede ingresar")
+}
+
+else if (genero=="indefinido" && edad <16){
+  console.log("Usted es menor de edad no puede ingresar")
+}
+else if (genero=="indefinido" && edad >16){
+  console.log("Usted es mayor de edad no puede ingresar")
+}
+
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
