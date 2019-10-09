@@ -1,0 +1,20 @@
+﻿function includesText(_string1, _string2) {
+​
+    if (typeof m1 === 'string' && typeof m2 === 'string') {
+​
+
+var upper1 = m1.toUpperCase()
+var upper2 = m2.toUpperCase()
+​
+
+var indexOfSecond = _string2.indexOf(_string1)
+​
+
+        if (indexOfSecond >= 0) {
+            return true;
+        }
+ 
+    return false;
+    }
+​
+}

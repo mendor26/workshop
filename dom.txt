@@ -1,0 +1,45 @@
+// DESAFIO 1
+
+var texts = ['Ed', 'Edd', 'Eddy' ]
+
+var liNode = document.getElementById('mainList')
+
+var listItemNode
+
+
+
+for(var i = 0; i < texts.length; i++){
+  
+listItemNode = document.createElement('li')
+
+listItemNode.innerHTML = texts[i]
+
+liNode.className = "list-group-item"
+
+liNode.appendChild(listItemNode)
+}
+
+
+
+
+// DESAFIO 2
+
+
+var newStudent = [
+{
+name:'Juan Pérez',
+dni: 22999333,
+email: 'juan@gmail.com'
+ }
+]
+
+var newStudent = document.createElement("li")
+
+function StudentNode(newStudent){
+h1ElementNode.createElement("h1")
+h3ElementNode.createElement("h3")
+pElementNode.createElement("p")
+
+h1ElementNode.innerHTML = texts[i]
+
+}
