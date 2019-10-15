@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+    
+$(document).ready(function(){
+var eliminateButton = $("#delete-button");
+eliminateButton.on("click", removeElementWithAnimation);
+});
+
+
+$(document).ready(function(){
+$("button").on("click", removeElementWithAnimation)
+
+function removeElementWithAnimation(event){
+$(this).parent().parent().hide(2000,function(){
+$(this).remove();
+})
+}
+})
+</script>
+</head>
+</html>
