@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+    
+var inputText = document.getElementById('input-text')
+
+inputText.onblur = validarMail
+
+function validarMail(_event){
+
+var inputNode = _event.target;
+  
+var valorDelInput = inputNode.value;
+  
+
+if(valorDelInput == ""){
+    inputNode.classList.remove = ("is-valid");
+    inputNode.classList.add = ("is-invalid");
+} 
+else {
+    inputNode.classList.add = ("is-valid");
+    inputNode.classList.remove = ("is-invalid");
+}
+}
+</script>
+</head>
+</html>
