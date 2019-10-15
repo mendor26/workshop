@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+    
+   var testList = ['CARLOS','GERONIMO','NICOLAS','LUCAS']
+   function studentList (_key, _array) {
+     if (typeof _key === 'string' && Array.isArray(_array)) {
+       var stringiList = JSON.stringify(_array);
+       console.log (stringiList);
+       var testList = localStorage.setItem('studentList',stringiList);
+       console.log(testList);
+     }
+   }
+   studentList('studentList',testList)
+///
+   function listStudents (_key) {
+     if (typeof _key === 'string') {
+     var testList = localStorage.getItem(_key);
+       if (testList != null) {
+     var parsedObj = JSON.parse(testList)
+     return (parsedObj)
+ }
+   }
+   return []
+}
+</head>
+</html>
